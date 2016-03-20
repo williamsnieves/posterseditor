@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "sourceMap": true
+  },
+  "filesGlob": [
+    "./*.ts",
+    "!./node_modules/**/*",
+    "./env/**/*.ts"
+  ],
+  "files": [],
+  "atom": {
+    "rewriteTsconfig": true
+  }
+}
